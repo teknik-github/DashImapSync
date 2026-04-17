@@ -1,0 +1,27 @@
+{
+  "name": "dash-imapsync",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "mysql2": "^3.22.0",
+    "nuxt": "^4.4.2",
+    "vue": "^3.5.32",
+    "vue-router": "^5.0.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "@vue/language-core": "^3.2.6",
+    "tailwindcss": "^4.2.2",
+    "vue-tsc": "^3.2.6"
+  }
+}

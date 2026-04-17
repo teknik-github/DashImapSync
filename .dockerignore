@@ -1,0 +1,16 @@
+node_modules/
+.nuxt/
+.output/
+.git/
+
+# Environment files — inject at runtime via --env-file or -e flags
+.env
+.env.*
+!.env.example
+
+# Imapsync runtime logs — use the VOLUME mount instead
+LOG_imapsync/
+
+# Dev/editor artifacts
+*.log
+.DS_Store
